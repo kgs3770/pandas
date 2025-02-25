@@ -13,7 +13,7 @@ creat fork
 
  git clone -
 
-
+$ git remote remove origin  = 기존 깃 주소 삭제
 ------
 python
 
@@ -58,3 +58,8 @@ $ pip install -r requirements.txt -  requirements.txt 기준으로 모듈 설치
 $ git init
 
 $ pip install openpyxl
+
+kaggle - 데이터 대회
+seaborn - 데이터 시각 툴 = $ pip install seaborn
+
+$ pip freeze >> requirements.txt
